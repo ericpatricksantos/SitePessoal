@@ -1,5 +1,8 @@
 body{
     background: #fefefe;
+    font-family: Vernada;
+    max-width:  900px;
+    margin: auto;
 }
 
 .photo{
@@ -10,6 +13,16 @@ body{
 
 #title, .subtitle, .post_title{
 color: #505050;
+}
+
+#title{
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+a{
+    text-decoration: line-through;
+    color: #505050;
 }
 
 .post_title{
@@ -27,11 +40,23 @@ color: #505050;
     border-radius: 5px 10px;
 }
 
-.post_contest{
+.post_content{
     margin: 0;
     margin-bottom: 15px;
+    text-transform: capitalize;
+    text-align: justify;
 }
 
 .post_image{
     margin-bottom: 15px;
+    width: 100%;
+}
+
+.contacts_list{
+    list-style-type: none;
+    padding-left: 15px;
+}
+
+.contacts_list li a{
+    text-decoration: none;
 }
